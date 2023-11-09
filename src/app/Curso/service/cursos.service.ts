@@ -9,7 +9,7 @@ import { take } from 'rxjs';
 export class CursosService {
    // o readonly serve para dizer que a variável não pode ser alterada
   // A variável API está fazedo a conexão com o backend
-  private readonly  API ="http://localhost:8080/cursos";
+  private readonly  API ="https://keen-roof-production.up.railway.app/cursos";
 
   constructor(private http: HttpClient) { }
 
